@@ -11,6 +11,7 @@ export class CounterPageComponent {
 
   increaseBy( value: number) {
     this.counter.update(current => current + value)
+
   }
 
 }
